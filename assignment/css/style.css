@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	background: #e4e3e3;
+width: 1200px;
+margin: 0 auto;
+}
+.header{
+	width: 60%;
+margin: 0 auto;
+height: 75px;
+box-sizing: border-box;
+}
+.logo{
+    float: left;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 30%;
+    margin-top: 20px;
+}
+.menu{
+	margin-left: 0;
+position: absolute;
+width: 70%;
+display: inline-block;
+}
+.menu ul{
+	overflow: hidden;
+}
+.menu ul li{
+	float: left;
+margin: 10px;
+list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+	color: white;
+	font-weight: bold;
+	background: darkblue;
+	padding: 20px 20px;
+	border-radius: 30px;
+}
+
+.banner{
+width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-image: url(../images/image.jpg);
+}
+
+.banner-content{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-content h3{
+	font-size: 30px;
+	font-weight: italic;
+	color: darkblue;
+}
+
+.banner-content p{
+		font-size: 22px;
+	font-weight: italic;
+	color: red;
+	font-weight: bold;
+}
+
+.icon{width: 80%;margin: 0 auto;overflow: hidden;text-align: center;}
+.icon-content{width: 20%;float: left;margin: 24px;display: inline-block;}
+.icon p{font-size: 20px;font-weight: bold;}
+.icon br{}
+
+.container-part{width: 80%;margin: 0 auto;padding: 0;overflow: hidden;display: block;}
+.container{width: 26.66%;float: left;overflow: hidden;/*! text-align: center; */padding: 27px;/*! box-sizing: border-box; */}
+.container h4{font-size: 19px;font-family: Comic Sans MS;}
+.container span{color: #939090e6;font-size: 19px;}
+.container p{font-size: 13px;}
+
+
+.article{
+	background: #EFEFEF;
+text-align: center;
+margin: 0;
+padding: 0;
+height: 120px
+}
+.article span{
+	    font-size: 38px;
+}
+.article h3{}
+
+.footer{
+	    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+    color: white;
+}
+
+.footer-content{
+	padding: 20px;
+float: left;
+width: 20%;
+}
+
+.footer-content i{
+	float: left
+}
+
+.footer-content p{
+	margin: 20px;
+}
+
+footer{
+background: 5D5047;
+margin: 0;
+padding: 0;
+color: black;
+height: 130px;
+flex: absolute;
+translate: y(-50);
+}
+footer p{
+	font-weight: bold;
+	font-size: 15px;
+margin-left: 18px;
+}
+
+
